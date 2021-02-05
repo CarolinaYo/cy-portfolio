@@ -1,6 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Home from "./pages/Home";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Navbar from "./components/Navbar";
@@ -13,9 +13,14 @@ function App() {
       <div>
         <Navbar />
         <Wrapper>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/portfolio" component={Portfolio} />
+          <Switch>
+            {/* <Route exact path="/" component={About} /> */}
+            <Route exact path={["/", "/about"]} />
+            <About />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/portfolio" />
+            <Portfolio />
+          </Switch>
         </Wrapper>
         <Footer />
       </div>

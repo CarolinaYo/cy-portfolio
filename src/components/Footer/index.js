@@ -4,7 +4,7 @@ import "./style.css";
 function Footer() {
   return (
     <footer className="footer">
-      <span>Pupster 2017</span>
+      <span>&copy; 2021 Carolina Yoedhana</span>
     </footer>
   );
 }
