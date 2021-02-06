@@ -3,27 +3,32 @@ import "./style.css";
 // import images from "../Images/projects";
 
 function ProjectCard(props) {
+  // console.log(props);
   return (
     <div className="card">
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
+        <a href={props.deployment} target="_blank" rel="noreferrer">
+          <img alt={props.name} src={props.image} />
+        </a>
       </div>
       <div className="content">
         <ul>
           <li>
-            <strong>Name:</strong> {props.name}
+            <strong>{props.name}</strong>
           </li>
           <li>
-            <strong>Occupation:</strong> {props.occupation}
-          </li>
-          <li>
-            <strong>Location:</strong> {props.location}
+            <p>{props.description}</p>
           </li>
         </ul>
+        <div className="links-container">
+          <a href={props.repository} target="_blank" rel="noreferrer">
+            <i className="fa fa-github fa-lg" aria-hidden="true"></i>
+          </a>
+          <a href={props.deployment} target="_blank" rel="noreferrer">
+            <i className="fa fa-desktop fa-md" aria-hidden="true"></i>
+          </a>
+        </div>
       </div>
-      {/* <span onClick={() => props.removeFriend(props.id)} className="remove">
-        𝘅
-      </span> */}
     </div>
   );
 }
