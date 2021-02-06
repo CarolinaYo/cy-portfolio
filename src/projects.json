@@ -1,45 +1,57 @@
 [
     {
       "id": 1,
-      "name": "project 1",
-      "image": "../Images/projects/225password_gen.png",
-      "occupation": "Fry Cook",
-      "location": "A Pineapple Under the Sea"
+      "name": "Random Password Generator",
+      "description": "This app generates a unique random  password that satisfied a set of criteria chosen by user through a series of prompts.",
+
+      "image": "{{../Images/projects/password_gen.png}}",
+      "repository": "https://github.com/CarolinaYo/js-password-gen-cy.git",
+      "deployment": "https://carolinayo.github.io/js-password-gen-cy/"
     },
     {
       "id": 2,
-      "name": "project 1",
-      "image": "../Images/projects/225password_gen.png",
-      "occupation": "Restaurant Owner",
-      "location": "A Giant Anchor"
+      "name": "The Weather Dashboard",
+      "description": "This app retireves weather data of a city and persisted data to be recalled from the displayed historical list.",
+
+      "image": "{../Images/projects/weather.png}",
+      "repository": "https://github.com/CarolinaYo/weather-dashboard-cy.git",
+      "deployment": "https://carolinayo.github.io/weather-dashboard-cy/"
     },
     {
       "id": 3,
-      "name": "project 2",
-      "image": "../Images/projects/225password_gen.png",
-      "occupation": "Cashier",
-      "location": "An Easter Island Head"
+      "name": "Scheduler",
+      "description": "Eat Da Burger is a burger blog application that has the CRUD basic function. This application is coded using MySql, Node, Express, and Handlebars that follow the MVC design pattern. The live site is deployment in Heroku platform.",
+
+      "image": "{../Images/projects/scheduler.png}",
+      "repository": "https://github.com/CarolinaYo/workday-scheduler-cy.git",
+      "deployment": "https://carolinayo.github.io/workday-scheduler-cy/"
     },
     {
       "id": 4,
-      "name": "project 3",
-      "image": "../Images/projects/225password_gen.png",
-      "occupation": "Boy Genius",
-      "location": "A Secret Laboratory"
+      "name": "Eat Da Burger",
+      "description": "Eat Da Burger is a burger blog application that has the CRUD basic function. This application is coded using MySql, Node, Express, and Handlebars that follow the MVC design pattern. The live site is deployed in Heroku platform.",
+
+      "image": "{../Images/projects/eatdaburger.png}",
+      "repository":"https://github.com/CarolinaYo/eatdabuger-mvc.git",
+      "deployment": "https://sheltered-anchorage-23068.herokuapp.com/"
     },
     {
       "id": 5,
-      "name": "project 5",
-      "image": "../Images/projects/225password_gen.png",
-      "occupation": "A Cowardly Dog",
-      "location": "Nowhere, Kansas"
+      "name": "Team Project: The Gifd of Food",
+      "description": "This application utilizes two different server side API to handle the task. It performs recipe searches and retrieves random gifs images. Using local storage, selected recipe can be saved and recalled.",
+
+      "image": "{../Images/projects/tgof.png}",
+      "repository": "https://github.com/CarolinaYo/the-gifd-of-food.git",
+      "deployment": "https://carolinayo.github.io/the-gifd-of-food/"
     },
     {
       "id": 6,
-      "name": "project 6",
-      "image": "../Images/projects/225password_gen.png",
-      "occupation": "Student",
-      "location": "Bluffington"
+      "name": "Team Project: gifNjelly",
+      "description": "Using Sequelize ORM and Passport authentication, this application functioned as a member based online social interaction platform. It processes a sign-up/log-in that is autheticated to restrict access. This app is deployed on Heroku platform.",
+
+      "image": "{../Images/projects/gifnjelly.png}",
+      "repository": "https://github.com/TommyWillen/gifNjelly.git",
+      "deployment": "https://mighty-fjord-82642.herokuapp.com/"
     }
     
   ]
