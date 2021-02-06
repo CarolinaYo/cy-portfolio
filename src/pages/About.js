@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "../components/Grid";
 import photo from "../components/Images/carolyoe.jpg";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -50,13 +51,12 @@ function About() {
                   GitHub
                 </a>{" "}
                 account and in my{" "}
-                <a
-                  target="_self"
-                  href="portfolio.html"
+                <Link
+                  to="/portfolio"
                   style={{ color: "#464444", fontWeight: "bold" }}
                 >
                   Portfolio
-                </a>{" "}
+                </Link>{" "}
                 page.
               </p>
             </div>
