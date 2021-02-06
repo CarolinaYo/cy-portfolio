@@ -14,12 +14,9 @@ function App() {
         <Navbar />
         <Wrapper>
           <Switch>
-            {/* <Route exact path="/" component={About} /> */}
-            <Route exact path={["/", "/about"]} />
-            <About />
+            <Route exact path={["/", "/about"]} component={About} />
             <Route exact path="/contact" component={Contact} />
-            <Route exact path="/portfolio" />
-            <Portfolio />
+            <Route exact path="/portfolio" component={Portfolio} />
           </Switch>
         </Wrapper>
         <Footer />
