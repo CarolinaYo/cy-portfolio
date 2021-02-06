@@ -1,37 +1,65 @@
 import React from "react";
 import { Container, Row, Col } from "../components/Grid";
+import photo from "../components/Images/carolyoe.jpg";
 
 function About() {
   return (
     <div>
-      {/* <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg">
-        <h1>Pupster</h1>
-        <h2>They're the Good Boys and Girls</h2>
-      </Hero> */}
       <Container fluid style={{ marginTop: 30 }}>
         <Row>
-          <Col size="md-8">
-            <h1>Welcome To My Portfolio!</h1>
-          </Col>
-        </Row>
-        <Row>
-          <Col size="md-8">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              aliquet diam tortor, id consequat mauris ullamcorper eu. Orci
-              varius natoque penatibus et magnis dis parturient montes, nascetur
-              ridiculus mus. Pellentesque et dui id justo finibus sollicitudin
-              at et metus. Ut feugiat tellus nec metus commodo, sed suscipit
-              nisi gravida. Duis eget vestibulum quam, ut porttitor sem. Donec
-              sagittis mi sollicitudin turpis semper, et interdum risus
-              lobortis. Vestibulum suscipit nunc non egestas tristique. Proin
-              hendrerit efficitur malesuada. Mauris lorem urna, sodales accumsan
-              quam non, tristique tempor erat. Nullam non sem facilisis, tempus
-              tortor sit amet, volutpat nisl. Ut et turpis non nunc maximus
-              mollis a vitae tortor. Pellentesque mattis risus ac quam laoreet
-              cursus. Praesent suscipit orci neque, vestibulum tincidunt augue
-              tincidunt non. Duis consequat mattis tortor vitae mattis.
-            </p>
+          <Col size="md-2" />
+          <Col size="md-7">
+            <div
+              className="box"
+              style={{
+                backgroundColor: "#92909096",
+                marginTop: 30,
+                borderRadius: 10,
+                padding: 20,
+              }}
+            >
+              <div style={{ marginTop: 5 }}>
+                <h3>Carolina | About Me</h3>
+              </div>
+
+              <hr style={{ backgroundColor: "#4aaaa5", height: 0.25 }} />
+              <img src={photo} alt="Carolina" />
+              <p>
+                Hi, welcome to my portfolio. I am a current bootcamp student for
+                <a
+                  href="https://bootcamp.uw.edu/coding/"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "#464444", fontWeight: "bold" }}
+                >
+                  {" "}
+                  Fullstack Web Development Program
+                </a>{" "}
+                offered through the University of Washington.
+              </p>
+              <p>
+                I have developed projects using Html5, CSS3, Javascript, JQuery,
+                Node.js, Express.js, and MySQL. Please check out my work at my
+                <a
+                  href="https://github.com/CarolinaYo"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "#464444", fontWeight: "bold" }}
+                >
+                  {" "}
+                  GitHub
+                </a>{" "}
+                account and in my{" "}
+                <a
+                  target="_self"
+                  href="portfolio.html"
+                  style={{ color: "#464444", fontWeight: "bold" }}
+                >
+                  Portfolio
+                </a>{" "}
+                page.
+              </p>
+            </div>
           </Col>
         </Row>
       </Container>
