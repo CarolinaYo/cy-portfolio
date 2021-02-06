@@ -1,8 +1,3 @@
-/* .footer {
-  min-height: 100px;
-  background: #E5E5E5;
-  position: relative;
-} */
 .footer {
   background-color: #666666;
   color: lightslategrey;
@@ -11,12 +6,3 @@
   padding-top: 10px;
   border-top: 5px solid #4aaaa5;
 }
-
-/* .footer span {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 3px;
-  background: #B8B8B8;
-} */
