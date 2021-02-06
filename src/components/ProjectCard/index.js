@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
-import images from "../Images/projects";
+// import images from "../Images/projects";
 
-function FriendCard(props) {
+function ProjectCard(props) {
   return (
     <div className="card">
       <div className="img-container">
@@ -28,4 +28,4 @@ function FriendCard(props) {
   );
 }
 
-export default FriendCard;
+export default ProjectCard;
