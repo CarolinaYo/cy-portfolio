@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/cy-portfolio/static/css/main.ae2a77cc.chunk.css",
-    "main.js": "/cy-portfolio/static/js/main.8a92aad0.chunk.js",
-    "main.js.map": "/cy-portfolio/static/js/main.8a92aad0.chunk.js.map",
-    "runtime-main.js": "/cy-portfolio/static/js/runtime-main.be212e66.js",
-    "runtime-main.js.map": "/cy-portfolio/static/js/runtime-main.be212e66.js.map",
-    "static/css/2.150d169a.chunk.css": "/cy-portfolio/static/css/2.150d169a.chunk.css",
-    "static/js/2.cf2e51d7.chunk.js": "/cy-portfolio/static/js/2.cf2e51d7.chunk.js",
-    "static/js/2.cf2e51d7.chunk.js.map": "/cy-portfolio/static/js/2.cf2e51d7.chunk.js.map",
-    "index.html": "/cy-portfolio/index.html",
-    "static/css/2.150d169a.chunk.css.map": "/cy-portfolio/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.ae2a77cc.chunk.css.map": "/cy-portfolio/static/css/main.ae2a77cc.chunk.css.map",
-    "static/js/2.cf2e51d7.chunk.js.LICENSE.txt": "/cy-portfolio/static/js/2.cf2e51d7.chunk.js.LICENSE.txt",
-    "static/media/style.css": "/cy-portfolio/static/media/background.1bcbff82.jpg",
-    "static/media/carolyoe.450c8b39.jpg": "/cy-portfolio/static/media/carolyoe.450c8b39.jpg",
-    "static/media/resume.f2d3d2ba.pdf": "/cy-portfolio/static/media/resume.f2d3d2ba.pdf"
+    "main.css": "/static/css/main.8bc49f0a.chunk.css",
+    "main.js": "/static/js/main.d9aba396.chunk.js",
+    "main.js.map": "/static/js/main.d9aba396.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.461725cb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.461725cb.js.map",
+    "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
+    "static/js/2.cf2e51d7.chunk.js": "/static/js/2.cf2e51d7.chunk.js",
+    "static/js/2.cf2e51d7.chunk.js.map": "/static/js/2.cf2e51d7.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.8bc49f0a.chunk.css.map": "/static/css/main.8bc49f0a.chunk.css.map",
+    "static/js/2.cf2e51d7.chunk.js.LICENSE.txt": "/static/js/2.cf2e51d7.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/static/media/background.1bcbff82.jpg",
+    "static/media/carolyoe.450c8b39.jpg": "/static/media/carolyoe.450c8b39.jpg",
+    "static/media/resume.f2d3d2ba.pdf": "/static/media/resume.f2d3d2ba.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.be212e66.js",
+    "static/js/runtime-main.461725cb.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.cf2e51d7.chunk.js",
-    "static/css/main.ae2a77cc.chunk.css",
-    "static/js/main.8a92aad0.chunk.js"
+    "static/css/main.8bc49f0a.chunk.css",
+    "static/js/main.d9aba396.chunk.js"
   ]
 }
