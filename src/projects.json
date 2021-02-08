@@ -4,7 +4,7 @@
       "name": "Random Password Generator",
       "description": "This app generates a unique random  password that satisfied a set of criteria chosen by user through a series of prompts.",
 
-      "image": "{{../Images/projects/password_gen.png}}",
+      "image": "/projects/password_gen.png",
       "repository": "https://github.com/CarolinaYo/js-password-gen-cy.git",
       "deployment": "https://carolinayo.github.io/js-password-gen-cy/"
     },
@@ -13,7 +13,7 @@
       "name": "The Weather Dashboard",
       "description": "This app retireves weather data of a city and persisted data to be recalled from the displayed historical list.",
 
-      "image": "{../Images/projects/weather.png}",
+      "image": "/projects/weather.png",
       "repository": "https://github.com/CarolinaYo/weather-dashboard-cy.git",
       "deployment": "https://carolinayo.github.io/weather-dashboard-cy/"
     },
@@ -22,7 +22,7 @@
       "name": "Scheduler",
       "description": "Eat Da Burger is a burger blog application that has the CRUD basic function. This application is coded using MySql, Node, Express, and Handlebars that follow the MVC design pattern. The live site is deployment in Heroku platform.",
 
-      "image": "{../Images/projects/scheduler.png}",
+      "image": "/projects/scheduler.png",
       "repository": "https://github.com/CarolinaYo/workday-scheduler-cy.git",
       "deployment": "https://carolinayo.github.io/workday-scheduler-cy/"
     },
@@ -31,7 +31,7 @@
       "name": "Eat Da Burger",
       "description": "Eat Da Burger is a burger blog application that has the CRUD basic function. This application is coded using MySql, Node, Express, and Handlebars that follow the MVC design pattern. The live site is deployed in Heroku platform.",
 
-      "image": "{../Images/projects/eatdaburger.png}",
+      "image": "/projects/eatdaburger.png",
       "repository":"https://github.com/CarolinaYo/eatdabuger-mvc.git",
       "deployment": "https://sheltered-anchorage-23068.herokuapp.com/"
     },
@@ -40,7 +40,7 @@
       "name": "Team Project: The Gifd of Food",
       "description": "This application utilizes two different server side API to handle the task. It performs recipe searches and retrieves random gifs images. Using local storage, selected recipe can be saved and recalled.",
 
-      "image": "{../Images/projects/tgof.png}",
+      "image": "/projects/tgof.png",
       "repository": "https://github.com/CarolinaYo/the-gifd-of-food.git",
       "deployment": "https://carolinayo.github.io/the-gifd-of-food/"
     },
@@ -49,7 +49,7 @@
       "name": "Team Project: gifNjelly",
       "description": "Using Sequelize ORM and Passport authentication, this application functioned as a member based online social interaction platform. It processes a sign-up/log-in that is autheticated to restrict access. This app is deployed on Heroku platform.",
 
-      "image": "{../Images/projects/gifnjelly.png}",
+      "image": "/projects/gifnjelly.png",
       "repository": "https://github.com/TommyWillen/gifNjelly.git",
       "deployment": "https://mighty-fjord-82642.herokuapp.com/"
     }
