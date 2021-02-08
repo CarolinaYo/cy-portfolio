@@ -3,7 +3,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "../components/Grid";
 import ProjectCard from "../components/ProjectCard";
-// import Wrapper from "../components/Wrapper";
 import projects from "../projects.json";
 
 class Portfolio extends Component {

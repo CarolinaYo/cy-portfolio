@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-// import images from "../Images/projects";
 
 function ProjectCard(props) {
   // console.log(props);
