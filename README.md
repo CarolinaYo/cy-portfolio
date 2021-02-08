@@ -15,4 +15,4 @@ JavaScript must be enabled in the browser to view this page.
 This is an individual assignment created by Carolina Yoedhana.
 
 - Github Link: https://github.com/CarolinaYo/cy-portfolio.git
-- Deployed page Link:
+- Deployed page Link: https://carolinayo.github.io/cy-portfolio/
