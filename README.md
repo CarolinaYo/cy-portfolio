@@ -1,6 +1,6 @@
 # React: Portfolio
 
-## INRODUCTION
+## INTRODUCTION
 
 This portfolio page is constructed using a React library with Bootstrap. I also utilize BrowserRouter from react-router-dom component to the route links to different pages. Each link routes user to desired page without reloading. Keeping future upgade in mind, I take the approach of pooling projects information into a json file. This file will feed details to its parent file.
 
